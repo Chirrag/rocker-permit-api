@@ -1,0 +1,20 @@
+select * from "zone" z where zone_id  = 260;
+select * from "location" l2 where location_id  = 279; 
+select * from parking_facility pf  where location_id  = 279;
+select * from zone_permit_type zpt where zone_id  = 260;
+select * from parking_facility_permit_type pfpt where parking_facility_id  = 307 ;
+
+delete from "zone";
+delete from "location" ;
+delete from parking_facility;
+delete from parking_facility_permit_type;
+delete from zone_permit_type ;
+
+
+
+
+select * from "zone" z;
+select * from "location" l2 ;
+select * from parking_facility pf ;
+select * from zone_permit_type zpt ;
+select * from parking_facility_permit_type pfpt ;
